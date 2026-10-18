@@ -1,0 +1,22 @@
+/* ============================================================
+   VenueVibe - venue-list.css
+   Styles for Venue Catalog & Venue Explorer Page
+   ============================================================ */
+
+@import url('common.css');
+
+/* Pagination buttons */
+.page-btn {
+  border: 1px solid #e3e8f0;
+  background: #fff;
+  color: #475467;
+  border-radius: 10px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .15s ease;
+}
+.page-btn:hover:not(:disabled) { border-color: #4f39f6; color: #4f39f6; }
+.page-btn.active { background: #4f39f6; border-color: #4f39f6; color: #fff; }
+.page-btn:disabled { opacity: .45; cursor: not-allowed; }
